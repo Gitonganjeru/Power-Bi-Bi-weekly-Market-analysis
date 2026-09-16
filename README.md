@@ -121,4 +121,209 @@ The analysis focused on five major areas.
 
 **Attrition Analysis**
 
-* Attrition tr
+* Attrition trends over time
+* Office-level attrition
+* Overtime patterns
+* High-risk workforce areas
+
+**Compensation & Diversity**
+
+* Salary distribution
+* Department-level compensation
+* Gender representation
+* Compensation differences
+
+### Visualization
+
+An interactive Power BI dashboard was developed with dedicated pages for:
+
+* Executive Summary
+* Workforce Overview
+* Departmental Performance
+* Attrition Analysis
+* Compensation and Diversity Analysis
+
+Slicers were incorporated to allow users to explore workforce segments.
+
+### Recommendations
+
+The analysis was translated into practical recommendations focused on:
+
+* Investigating non-compensation drivers of Finance attrition
+* Improving retention in Customer Support
+* Reviewing workforce conditions in Kisumu
+* Monitoring and reducing excessive overtime
+* Improving the measurement of compensation equity
+* Using more stable measures for attrition trends
+
+---
+
+# Key Findings
+
+### Attrition is concentrated in specific departments
+
+Finance recorded the highest departmental attrition rate at **22%**, followed by Customer Support at **20%**.
+
+Operations had the lowest attrition rate at **8%**, making it a potential internal benchmark for retention practices.
+
+### Customer Support has the largest absolute loss
+
+Customer Support had 41 active employees and 10 employees who had left.
+
+Those 10 departures represented approximately **26% of all employee exits**, meaning that improving retention in this department could have a significant impact on total workforce turnover.
+
+### Kisumu is the main geographic attrition hotspot
+
+Kisumu recorded an attrition rate of **23%**, compared with the company-wide rate of 16%.
+
+This makes Kisumu the clearest geographic outlier in the available dashboard results.
+
+### High attrition is not necessarily explained by salary
+
+Finance had the highest average monthly salary at approximately **KES 175,659**, while also recording a 22% attrition rate.
+
+This suggests that salary alone may not explain employee turnover and that other factors such as workload, management, engagement, or career development should be investigated.
+
+### Overtime is an important area for investigation
+
+Approximately **40% of active employees regularly work overtime**.
+
+The analysis identified overtime as a potentially important workforce factor and recommended a direct comparison of attrition rates between employees who work overtime and those who do not.
+
+### Attrition trends are highly volatile
+
+Quarterly attrition varied substantially between 2018 and 2025.
+
+Because the workforce is relatively small, individual employee exits can cause large changes in quarterly rates. A rolling four-quarter average or annualized reporting approach would therefore provide a more stable view of the trend.
+
+---
+
+# Business Recommendations
+
+Based on the analysis, the project recommends:
+
+* Investigating the underlying causes of Finance attrition through structured exit interviews
+* Prioritizing retention initiatives within Customer Support
+* Reviewing management, engagement, and compensation competitiveness in Kisumu
+* Investigating workload and overtime in high-attrition departments
+* Using rolling or annualized attrition metrics instead of relying heavily on volatile quarterly rates
+* Correcting the compensation-by-gender calculation before making pay-equity conclusions
+
+---
+
+# Areas for Improvement
+
+This project also highlighted several areas where the dashboard and analytical process can be improved.
+
+### Improve Visual Storytelling
+
+The dashboard can be organized into clearer analytical sections so that users can naturally move from:
+
+**Workforce Overview → Attrition → Drivers → Recommendations**
+
+A stronger visual hierarchy would make the story easier to follow.
+
+### Use Specific Visuals When Presenting Insights
+
+When communicating an insight, the supporting chart should be presented alongside the conclusion rather than sharing an entire dashboard screenshot.
+
+For example:
+
+> **Insight:** Finance has the highest attrition rate among departments.
+
+This should be accompanied by the **Departmental Attrition chart**, allowing the audience to immediately see the evidence behind the conclusion.
+
+### Improve Dashboard Layout
+
+The dashboard can be refined by grouping related visuals and creating a more intentional flow.
+
+Future iterations will prioritize:
+
+* Clear section headers
+* Consistent visual hierarchy
+* Better spacing
+* Reduced visual clutter
+* Stronger alignment between charts and the business questions
+
+### Correct Compensation Measurement
+
+The compensation-by-gender visual currently uses **Sum of Monthly Salary rather than Average Monthly Salary**.
+
+Using the sum can make differences in workforce size appear to be pay differences.
+
+The visual should therefore be rebuilt using average salary before making any conclusions about gender pay equity.
+
+### Improve Data Quality
+
+The dataset contains inconsistent category labels, including variations of education and department names.
+
+For example:
+
+* `Customer Support`
+* `Cust. Support`
+* `Support`
+
+These should be standardized in Power Query before final analysis.
+
+### Improve Attrition Trend Analysis
+
+The quarterly attrition chart is highly volatile.
+
+A future version should include:
+
+* Four-quarter rolling attrition
+* Annualized attrition
+* Minimum-headcount thresholds for trend interpretation
+
+This would reduce the risk of interpreting small-sample fluctuations as genuine business trends.
+
+### Add a Direct Overtime-vs-Attrition Analysis
+
+The current dashboard identifies overtime as an important area for investigation, but a dedicated visual comparing:
+
+**Attrition Rate — Overtime vs No Overtime**
+
+would make the relationship easier to evaluate.
+
+---
+
+# Tools Used
+
+* **Microsoft Power BI**
+* **Power Query**
+* **DAX**
+* **Data Modeling**
+* **Data Visualization**
+* **CRISP-DM**
+
+---
+
+# Dashboard Pages
+
+* Executive Summary
+* Workforce Overview
+* Departmental Performance
+* Attrition Analysis
+* Compensation & Diversity Analysis
+
+---
+
+# Project Outcome
+
+This project demonstrates how Power BI can be used to move from raw workforce data to **business-focused insights and recommendations**.
+
+The key lesson from the project was that effective analytics is not only about creating visually attractive dashboards. It also requires:
+
+* Asking the right business questions
+* Building reliable measures
+* Choosing appropriate visualizations
+* Connecting insights to evidence
+* Communicating limitations
+* Translating findings into actionable decisions
+
+---
+
+## Author
+
+**Timothy Njeru**
+
