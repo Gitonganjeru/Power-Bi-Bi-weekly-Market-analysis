@@ -327,3 +327,5 @@ The key lesson from the project was that effective analytics is not only about c
 
 **Timothy Njeru**
 
+Data Analytics | Power BI | SQL | Excel
+
